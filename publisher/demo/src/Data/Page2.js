@@ -26,6 +26,8 @@ const banners = [
         top: '20vh',
         left: '0',
         hideUnder: '1660px',
+        publisherId: 1,
+        zoneId: 1,
     },
     {
         height: BannerSizes['wide-skyscraper'].height,
@@ -34,12 +36,16 @@ const banners = [
         top: '20vh',
         right: '0',
         hideUnder: '1660px',
+        publisherId: 1,
+        zoneId: 1,
     },
     {
         height: BannerSizes['mobile-banner'].height,
         width: BannerSizes['mobile-banner'].width,
         hideUnder: BannerSizes['mobile-banner'].width,
         hideAbove: BannerSizes['banner'].width,
+        publisherId: 1,
+        zoneId: 1,
     },
 ];
 
