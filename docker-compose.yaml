@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  dev:
+    image: pawzar/devops:php-fpm
+    volumes:
+      - .:/website
+    working_dir: /website/publisher/demo
+    user: dev
+    entrypoint: ['bash', '-c']
