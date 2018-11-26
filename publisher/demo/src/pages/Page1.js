@@ -8,15 +8,9 @@ import backgroundImage from '../assets/backgrounds/bg_3.jpg'
 import logo from './../assets/icons/ads_logo.svg'
 import data from '../Data/Page2'
 import SEO from "../components/SEO";
-import {AdBanner} from "../components/Atoms/atoms";
-import {BannerSizes} from "../../../config/bannerConfig";
-
+import Banners from "../components/AdBanners/AdBanners";
 
 class TravelPage extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <Layout>
@@ -26,14 +20,11 @@ class TravelPage extends React.Component {
                     bgImage={`url("${backgroundImage}")`}
                 />
                 <Articles articlesData={data.articles} />
-                <AdBanner  height={BannerSizes['wide-skyscraper'].height} width={BannerSizes['wide-skyscraper'].width} position="fixed" left="0" top="20vh" hideUnder="1660px"/>
-                <AdBanner  height={BannerSizes['wide-skyscraper'].height} width={BannerSizes['wide-skyscraper'].width} position="fixed" right="0" top="20vh" hideUnder="1660px"/>
-                <AdBanner  height={BannerSizes['banner'].height} width={BannerSizes['banner'].width} hideAbove='728px' hideUnder={BannerSizes['banner'].width}/>
-                <AdBanner  height={BannerSizes['mobile-banner'].height} width={BannerSizes['mobile-banner'].width} hideAbove={BannerSizes['banner'].width} hideUnder={BannerSizes['mobile-banner'].width}/>
+                <Banners banners={data.banners}/>
                 <Footer />
             </Layout>
         )
     }
 };
 
-export default TravelPage
+export default TravelPage;

@@ -42,7 +42,8 @@ export const BannerSizes = {
     "small-rectangle": {
         height: "150px",
         width: "180px",
-    }, "vertical-banner": {
+    },
+    "vertical-banner": {
         height: "240px",
         width: "120px",
     },

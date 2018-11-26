@@ -5,6 +5,7 @@ import article4 from "../assets/cats/cat-4.jpg";
 import article5 from "../assets/cats/cat-5.jpg";
 import article6 from "../assets/cats/cat-6.jpg";
 import logo from "../assets/adshares-logo.svg";
+import {BannerSizes} from "../../../config/bannerConfig";
 
 const config = {
     pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "/portfolio"
@@ -16,6 +17,36 @@ const config = {
     siteDescription: '',
     siteKeywords: '',
 };
+
+const banners = [
+    {
+        height: BannerSizes['wide-skyscraper'].height,
+        width: BannerSizes['wide-skyscraper'].width,
+        position: 'fixed',
+        top: '20vh',
+        left: '0',
+        hideUnder: '1660px',
+    },
+    {
+        height: BannerSizes['wide-skyscraper'].height,
+        width: BannerSizes['wide-skyscraper'].width,
+        position: 'fixed',
+        top: '20vh',
+        right: '0',
+        hideUnder: '1660px',
+    },
+    {
+        height: BannerSizes['banner'].height,
+        width: BannerSizes['banner'].width,
+        hideUnder: BannerSizes['banner'].width,
+    },
+    {
+        height: BannerSizes['mobile-banner'].height,
+        width: BannerSizes['mobile-banner'].width,
+        hideUnder: BannerSizes['mobile-banner'].width,
+        hideAbove: BannerSizes['banner'].width,
+    },
+];
 
 const articles = [
     {
@@ -60,4 +91,5 @@ const articles = [
 export default {
     config,
     articles,
+    banners
 }

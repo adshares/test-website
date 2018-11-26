@@ -9,14 +9,9 @@ import backgroundImage from '../assets/backgrounds/bg_2.jpg'
 import logo from './../assets/icons/adshares-logo.svg'
 import data from '../Data/Page1'
 import SEO from "../components/SEO";
-import {AdBanner} from "../components/Atoms/atoms";
-import {BannerSizes} from "../../../config/bannerConfig";
+import Banners from "../components/AdBanners/AdBanners";
 
 class IndexPage extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <Layout>
@@ -25,14 +20,8 @@ class IndexPage extends React.Component {
                     logo={logo}
                     bgImage={`url("${backgroundImage}")`}
                 />
-
-                <AdBanner  height={BannerSizes['leaderboard'].height} width={BannerSizes['leaderboard'].width} hideUnder='728px'/>
                 <Articles articlesData={data.articles} />
-                <AdBanner  height={BannerSizes['wide-skyscraper'].height} width={BannerSizes['wide-skyscraper'].width} position="fixed" left="0" top="20vh" hideUnder="1660px"/>
-                <AdBanner  height={BannerSizes['wide-skyscraper'].height} width={BannerSizes['wide-skyscraper'].width} position="fixed" right="0" top="20vh" hideUnder="1660px"/>
-                <AdBanner  height={BannerSizes['banner'].height} width={BannerSizes['banner'].width} hideAbove='728px' hideUnder={BannerSizes['banner'].width}/>
-                <AdBanner  height={BannerSizes['mobile-banner'].height} width={BannerSizes['mobile-banner'].width} hideAbove={BannerSizes['banner'].width} hideUnder={BannerSizes['mobile-banner'].width}/>
-
+                 <Banners banners={data.banners}/>
                 <Footer />
             </Layout>
         )

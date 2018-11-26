@@ -23,7 +23,6 @@ export const ArticlesSection = styled.section`
 export const Article = styled.article`
   grid-area: ${props => `article-${props.index}`};
   background-color: ${props => props.bgColor || ''};
-  border-radius: 10px;
   background: ${props => `linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),  ${props.bgImg} ` || ''};
   background-size: ${props => props.bgSize || 'cover'};
   background-position: ${props => props.bgPosition || ''};
@@ -32,19 +31,23 @@ export const Article = styled.article`
   margin-bottom: 32px;
 
   @media only screen and (min-width: 1024px) {
-    margin-bottom: 0;
     height: 400px;
     display: flex;
     padding: 64px;
     justify-content: flex-end;
     flex-direction: column;
     transition: transform 0.2s linear;
-
+  }
+  
+  @media only screen and (min-width: 1224px) {
+    margin-bottom: 0;
+    border-radius: 10px;
+    
     &:hover {
       transform: scale(1.02);
     }
   }
-`
+`;
 
 export const ArticleTitle = styled.h2`
   font-size: ${props => props.fontSize || '24px'};
