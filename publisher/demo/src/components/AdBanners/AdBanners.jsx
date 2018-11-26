@@ -22,7 +22,8 @@ const AdBanner = styled.div`
 `;
 
 const Banners = ({banners}) => {
-    const Banners = banners.map(banner => (<AdBanner height={banner.height}
+    const Banners = banners.map((banner, index )=> (<AdBanner key={index}
+                                                     height={banner.height}
                                                      width={banner.width}
                                                      position={banner.position || ''}
                                                      top={banner.top || ''}

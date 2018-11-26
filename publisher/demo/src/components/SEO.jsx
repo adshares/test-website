@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-const SEO = ({config}) => {
+const SEO = ({config, serverLink}) => {
     const title = config.siteTitle;
     const realPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
     const image = config.siteUrl + realPrefix + config.siteLogo;
@@ -15,6 +15,7 @@ const SEO = ({config}) => {
             alternateName: config.siteTitleAlt ? config.siteTitleAlt : '',
         },
     ];
+
     return (
         <Helmet>
             <html lang={config.siteLanguage}/>
@@ -28,7 +29,7 @@ const SEO = ({config}) => {
             <meta name="keywords" content={config.siteKeywords}/>
             <meta name="description" content={config.siteDescription}/>
             <script type="application/ld+json">{JSON.stringify(schemaOrgJSONLD)}</script>
-            <script src="http://server.ads/supply/find.js" async></script>
+            <script src={serverLink} async/>
 
         </Helmet>
     );
