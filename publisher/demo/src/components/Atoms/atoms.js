@@ -30,7 +30,6 @@ export const Link = styled.a`
 
 export const FixedButtons = styled.section`
   padding: 16px;
-  position: fixed;
   bottom: 10px;
   right: 16px;
   display: flex;

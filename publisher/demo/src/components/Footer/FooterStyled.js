@@ -20,10 +20,14 @@ export const FooterElement = styled.footer`
 
 export const BottomInfo = styled.div`
   width: 100%;
+  display: flex;
+  flex-direction: column;
 
   @media only screen and (min-width: 768px) {
-    display: flex;
-    margin-left: 20vw;
+    max-width: 1460px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
   }
 `;
 
