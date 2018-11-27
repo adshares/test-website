@@ -8,7 +8,7 @@ import {
   LocationDetail,
 } from './FooterStyled'
 
-const Footer = () => (
+const Footer = ({children}) => (
   <FooterElement>
     <BottomInfo>
       <Address>
@@ -16,6 +16,7 @@ const Footer = () => (
         <LocationDetail> demo </LocationDetail>
         <Email href="mailto:office@adshares.net"> office@adshares.net </Email>
       </Address>
+        {children}
     </BottomInfo>
   </FooterElement>
 );

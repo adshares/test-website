@@ -29,18 +29,19 @@ class TravelPage extends React.Component {
         return (
             <Layout>
                 <SEO config={data.config}/>
-                <FixedButtons>
-                    <FixedButton onClick={() => this.changeServer(SERVICES_URLS["1"])}> Server 1</FixedButton>
-                    <FixedButton onClick={() => this.changeServer(SERVICES_URLS["2"])}> Server 2</FixedButton>
-                    <FixedButton onClick={() => this.changeServer(SERVICES_URLS["3"])}> Server 3</FixedButton>
-                </FixedButtons>
                 <MainPage
                     logo={logo}
                     bgImage={`url("${backgroundImage}")`}
                 />
                 <Articles articlesData={data.articles} />
                 <Banners banners={data.banners}/>
-                <Footer />
+                <Footer>
+                    <FixedButtons>
+                        <FixedButton onClick={() => this.changeServer(SERVICES_URLS["1"])}> Server 1</FixedButton>
+                        <FixedButton onClick={() => this.changeServer(SERVICES_URLS["2"])}> Server 2</FixedButton>
+                        <FixedButton onClick={() => this.changeServer(SERVICES_URLS["3"])}> Server 3</FixedButton>
+                    </FixedButtons>
+                </Footer>
             </Layout>
         )
     }
