@@ -40,10 +40,8 @@ const banners = [
         zoneId: 1,
     },
     {
-        height: BannerSizes['mobile-banner'].height,
-        width: BannerSizes['mobile-banner'].width,
-        hideUnder: BannerSizes['mobile-banner'].width,
-        hideAbove: BannerSizes['banner'].width,
+        height: BannerSizes['large-leaderboard'].height,
+        width: BannerSizes['large-leaderboard'].width,
         publisherId: 1,
         zoneId: 1,
     },
