@@ -40,8 +40,8 @@ const banners = [
         zoneId: 1,
     },
     {
-        height: BannerSizes['banner'].height,
-        width: BannerSizes['banner'].width,
+        width: BannerSizes['large-leaderboard'].width,
+        height: BannerSizes['large-leaderboard'].height,
         hideUnder: BannerSizes['banner'].width,
     },
     {
