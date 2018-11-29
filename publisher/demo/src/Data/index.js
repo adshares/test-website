@@ -1,16 +1,16 @@
-import article1 from "../assets/travel/travel-1.jpg";
-import article2 from "../assets/travel/travel-2.jpg";
-import article3 from "../assets/travel/travel-3.jpg";
-import article4 from "../assets/travel/travel-4.jpg";
-import article5 from "../assets/travel/travel-5.jpg";
-import article6 from "../assets/travel/travel-6.jpg";
+import article1 from "../assets/cats/cat-1.jpg";
+import article2 from "../assets/cats/cat-2.jpg";
+import article3 from "../assets/cats/cat-3.jpg";
+import article4 from "../assets/cats/cat-4.jpg";
+import article5 from "../assets/cats/cat-5.jpg";
+import article6 from "../assets/cats/cat-6.jpg";
 import logo from "../assets/adshares-logo.svg";
 import {BannerSizes} from "../../../config/bannerConfig";
 
 const config = {
     pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "/portfolio"
-    siteTitle: 'Traveler publisher', // Navigation and Site Title
-    siteTitleAlt: 'Site about traveling', // Alternative Site title for SEO
+    siteTitle: 'Veterinarian publisher', // Navigation and Site Title
+    siteTitleAlt: 'Site about cats', // Alternative Site title for SEO
     siteUrl: '/', // Domain of your site. No trailing slash!
     siteLanguage: 'en', // Language Tag on <html> element
     siteLogo: logo, // Used for SEO and manifest
@@ -26,8 +26,8 @@ const banners = [
         top: '20vh',
         left: '0',
         hideUnder: '1790px',
-        publisherId: 1,
-        zoneId: 1,
+        publisherId: 6,
+        zoneId: 28,
     },
     {
         height: BannerSizes['wide-skyscraper'].height,
@@ -36,23 +36,23 @@ const banners = [
         top: '20vh',
         right: '0',
         hideUnder: '1790px',
-        publisherId: 1,
-        zoneId: 1,
+        publisherId: 6,
+        zoneId: 29,
     },
     {
-        height: BannerSizes['banner'].height,
-        width: BannerSizes['banner'].width,
+        width: BannerSizes['large-leaderboard'].width,
+        height: BannerSizes['large-leaderboard'].height,
         hideUnder: BannerSizes['banner'].width,
-        publisherId: 1,
-        zoneId: 1,
+        publisherId: 6,
+        zoneId: 30,
     },
     {
         height: BannerSizes['mobile-banner'].height,
         width: BannerSizes['mobile-banner'].width,
         hideUnder: BannerSizes['mobile-banner'].width,
         hideAbove: BannerSizes['banner'].width,
-        publisherId: 1,
-        zoneId: 1,
+        publisherId: 6,
+        zoneId: 31,
     },
 ];
 
