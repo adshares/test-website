@@ -28,7 +28,7 @@ class Page2 extends React.Component {
     render() {
         return (
             <Layout>
-                <SEO config={data.config} serverLink=""/>
+                <SEO config={data.config} serverLink={this.state.currentService}/>
                 <MainPage
                     logo={logo}
                     bgImage={`url("${backgroundImage}")`}
