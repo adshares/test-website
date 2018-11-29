@@ -26,8 +26,8 @@ const banners = [
         top: '20vh',
         left: '0',
         hideUnder: '1790px',
-        publisherId: 1,
-        zoneId: 1,
+        publisherId: 6,
+        zoneId: 28,
     },
     {
         height: BannerSizes['wide-skyscraper'].height,
@@ -36,21 +36,23 @@ const banners = [
         top: '20vh',
         right: '0',
         hideUnder: '1790px',
-        publisherId: 1,
-        zoneId: 1,
+        publisherId: 6,
+        zoneId: 29,
     },
     {
         width: BannerSizes['large-leaderboard'].width,
         height: BannerSizes['large-leaderboard'].height,
         hideUnder: BannerSizes['banner'].width,
+        publisherId: 6,
+        zoneId: 30,
     },
     {
         height: BannerSizes['mobile-banner'].height,
         width: BannerSizes['mobile-banner'].width,
         hideUnder: BannerSizes['mobile-banner'].width,
         hideAbove: BannerSizes['banner'].width,
-        publisherId: 1,
-        zoneId: 1,
+        publisherId: 6,
+        zoneId: 31,
     },
 ];
 
