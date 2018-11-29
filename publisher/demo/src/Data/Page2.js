@@ -15,7 +15,7 @@ const config = {
     siteLanguage: 'en', // Language Tag on <html> element
     siteLogo: logo, // Used for SEO and manifest
     siteDescription: '',
-    siteKeywords: '',
+    siteKeywords: 'accio:200186,accio:200087,accio:200205,accio:200417',//"Technology & Computing","Hobbies & Interests: Technology","Travel","Travel: Italy"
 };
 
 const banners = [
