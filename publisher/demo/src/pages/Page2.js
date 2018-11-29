@@ -34,7 +34,6 @@ class Page2 extends React.Component {
                     bgImage={`url("${backgroundImage}")`}
                 />
                 <Banners banners={data.banners}/>
-
                 <Articles articlesData={data.articles}/>
                 <Footer>
                     <FixedButtons>

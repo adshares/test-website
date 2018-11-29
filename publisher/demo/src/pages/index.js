@@ -35,8 +35,8 @@ class IndexPage extends React.Component {
                     logo={logo}
                     bgImage={`url("${backgroundImage}")`}
                 />
-                <Articles articlesData={data.articles}/>
                 <Banners banners={data.banners}/>
+                <Articles articlesData={data.articles}/>
                 <Footer>
                     <FixedButtons>
                         <FixedButton onClick={() => this.changeServer(SERVICES_URLS["1"])}> Server 1</FixedButton>
