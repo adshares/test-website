@@ -12,7 +12,7 @@ import Banners from "../components/AdBanners/AdBanners";
 import {FixedButton, FixedButtons} from "../components/Atoms/atoms";
 import SERVICES_URLS from "../../../config/servicesConfig";
 
-class VeterinarianPage extends React.Component {
+class Page2 extends React.Component {
     state = {
         currentService: SERVICES_URLS["1"],
     };
@@ -48,4 +48,4 @@ class VeterinarianPage extends React.Component {
     }
 }
 
-export default VeterinarianPage
+export default Page2

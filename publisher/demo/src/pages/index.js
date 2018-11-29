@@ -7,7 +7,7 @@ import Articles from '../components/Articles/Articles'
 import Footer from '../components/Footer/Footer'
 import backgroundImage from '../assets/backgrounds/bg_2.jpg'
 import logo from './../assets/icons/adshares-logo.svg'
-import data from '../Data/Page1'
+import data from '../Data/index'
 import SEO from "../components/SEO";
 import Banners from "../components/AdBanners/AdBanners";
 import {FixedButton, FixedButtons} from "../components/Atoms/atoms";

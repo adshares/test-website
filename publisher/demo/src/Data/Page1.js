@@ -1,16 +1,16 @@
-import article1 from "../assets/cats/cat-1.jpg";
-import article2 from "../assets/cats/cat-2.jpg";
-import article3 from "../assets/cats/cat-3.jpg";
-import article4 from "../assets/cats/cat-4.jpg";
-import article5 from "../assets/cats/cat-5.jpg";
-import article6 from "../assets/cats/cat-6.jpg";
+import article1 from "../assets/tea/tea-1.jpg";
+import article2 from "../assets/tea/tea-2.jpg";
+import article3 from "../assets/tea/tea-3.jpg";
+import article4 from "../assets/tea/tea-4.jpg";
+import article5 from "../assets/tea/tea-5.jpg";
+import article6 from "../assets/tea/tea-6.jpg";
 import logo from "../assets/adshares-logo.svg";
 import {BannerSizes} from "../../../config/bannerConfig";
 
 const config = {
     pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "/portfolio"
-    siteTitle: 'Veterinarian publisher', // Navigation and Site Title
-    siteTitleAlt: 'Site about cats', // Alternative Site title for SEO
+    siteTitle: 'Tea publisher', // Navigation and Site Title
+    siteTitleAlt: 'Site about tea', // Alternative Site title for SEO
     siteUrl: '/', // Domain of your site. No trailing slash!
     siteLanguage: 'en', // Language Tag on <html> element
     siteLogo: logo, // Used for SEO and manifest
@@ -40,15 +40,8 @@ const banners = [
         zoneId: 1,
     },
     {
-        width: BannerSizes['large-leaderboard'].width,
         height: BannerSizes['large-leaderboard'].height,
-        hideUnder: BannerSizes['banner'].width,
-    },
-    {
-        height: BannerSizes['mobile-banner'].height,
-        width: BannerSizes['mobile-banner'].width,
-        hideUnder: BannerSizes['mobile-banner'].width,
-        hideAbove: BannerSizes['banner'].width,
+        width: BannerSizes['large-leaderboard'].width,
         publisherId: 1,
         zoneId: 1,
     },

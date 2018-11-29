@@ -12,7 +12,7 @@ import Banners from "../components/AdBanners/AdBanners";
 import {FixedButton, FixedButtons} from "../components/Atoms/atoms";
 import SERVICES_URLS from "../../../config/servicesConfig";
 
-class TravelPage extends React.Component {
+class Page1 extends React.Component {
     state = {
         currentService: SERVICES_URLS["1"],
     };
@@ -47,4 +47,4 @@ class TravelPage extends React.Component {
     }
 };
 
-export default TravelPage;
+export default Page1;
