@@ -24,5 +24,8 @@ cd publisher/demo
 # Install dependencies
 yarn install
 
+# Add command line Gatsby
+yarn global add gatsby-cli
+
 # Build project
 gatsby build ${APP_ENV:-prod}
