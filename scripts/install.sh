@@ -3,4 +3,4 @@
 set -e
 
 mkdir -p ${INSTALLATION_PATH}
-mv public/* ${INSTALLATION_PATH}/
+mv publisher/demo/public/* ${INSTALLATION_PATH}/
