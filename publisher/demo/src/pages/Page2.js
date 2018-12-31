@@ -35,13 +35,7 @@ class Page2 extends React.Component {
                 />
                 <Banners banners={data.banners}/>
                 <Articles articlesData={data.articles}/>
-                <Footer>
-                    <FixedButtons>
-                        <FixedButton onClick={() => this.changeServer(SERVICES_URLS["1"])}> Server 1</FixedButton>
-                        <FixedButton onClick={() => this.changeServer(SERVICES_URLS["2"])}> Server 2</FixedButton>
-                        <FixedButton onClick={() => this.changeServer(SERVICES_URLS["3"])}> Server 3</FixedButton>
-                    </FixedButtons>
-                </Footer>
+                <Footer/>
             </Layout>
         )
     }
