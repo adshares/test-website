@@ -29,4 +29,4 @@ yarn install
 yarn global add gatsby-cli
 
 # Build project
-gatsby build ${APP_ENV:-prod}
+gatsby build
