@@ -1,8 +1,8 @@
 import React from 'react'
 import { List, Nav, NavItem, NavLink } from './NavigationStyled'
 
-const Navigation = () => (
-  <Nav >
+const Navigation = ({className}) => (
+  <Nav className={className}>
     <List>
       <NavItem>
         <NavLink to="/Page1/"

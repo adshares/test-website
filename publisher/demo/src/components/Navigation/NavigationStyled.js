@@ -5,6 +5,13 @@ export const Nav = styled.nav`
   grid-area: main-nav;
   display: none;
   
+  &.mobile-nav {
+    display: block;
+    width: 55%;
+    background: rgba(0, 0 ,0, 0.8);
+    padding: 14px;
+  }
+  
   @media only screen and (min-width: 768px) {
     display: flex;
     justify-content: center;
