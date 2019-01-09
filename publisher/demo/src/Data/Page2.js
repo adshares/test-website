@@ -15,7 +15,7 @@ const config = {
     siteLanguage: 'en', // Language Tag on <html> element
     siteLogo: logo, // Used for SEO and manifest
     siteDescription: '',
-    siteKeywords: 'accio:200417, Technology & Computing, Hobbies & Interests: Technology, Travel, Travel: Italy',
+    siteKeywords: 'Travel, Travel: Italy',
 };
 
 const banners = [
@@ -26,8 +26,8 @@ const banners = [
         top: '20vh',
         left: '0',
         hideUnder: '1790px',
-        publisherId: 6,
-        zoneId: 24
+        publisherId: 3,
+        zoneId: 4
     },
     {
         height: BannerSizes['wide-skyscraper'].height,
@@ -36,23 +36,23 @@ const banners = [
         top: '20vh',
         right: '0',
         hideUnder: '1790px',
-        publisherId: 6,
-        zoneId: 25,
+        publisherId: 3,
+        zoneId: 5,
     },
     {
         height: BannerSizes['banner'].height,
         width: BannerSizes['banner'].width,
         hideUnder: BannerSizes['banner'].width,
-        publisherId: 6,
-        zoneId: 26,
+        publisherId: 3,
+        zoneId: 6,
     },
     {
         height: BannerSizes['mobile-banner'].height,
         width: BannerSizes['mobile-banner'].width,
         hideUnder: BannerSizes['mobile-banner'].width,
         hideAbove: BannerSizes['banner'].width,
-        publisherId: 6,
-        zoneId: 27,
+        publisherId: 3,
+        zoneId: 7,
     },
 ];
 
