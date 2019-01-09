@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Main = styled.main`
   max-width: 1460px;
   margin: 0 auto;
-  height: 50vh;
+  //height: 50vh;
   width: 100%;
   padding: 24px 0;
   display: grid;
@@ -15,7 +15,7 @@ export const Main = styled.main`
   background-size: cover;
   position: relative;
   grid-template-columns: 40px 1fr 40px;
-  grid-template-rows: ${props => props.gridRowsMobile || `50px 100px 2fr`};
+  grid-template-rows: ${props => props.gridRowsMobile || `50px 60px 300px`};
   grid-template-areas:
     '. hamburger-menu .'
     '. main-title .'
@@ -59,7 +59,7 @@ export const LogoWrapper = styled.div`
 
 export const Logo = styled.img`
   width: auto;
-  height: 160px;
+  height: 100px;
 
   @media only screen and (min-width: 1024px) {
     height: 100px;
