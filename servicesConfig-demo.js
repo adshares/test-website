@@ -1,5 +1,5 @@
 const SERVICES_URLS = {
-    1: 'https://demo-server.adshares.net/supply/find.js?n='+Math.random(),
+    1: 'https://demo-server.adshares.net/supply/find.js',
 };
 
 export default SERVICES_URLS;
