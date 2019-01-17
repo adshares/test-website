@@ -26,7 +26,7 @@ const banners = [
         top: '20vh',
         left: '0',
         hideUnder: '1790px',
-        publisherId: 3,
+        publisherId: 0,
         zoneId: 8,
     },
     {
@@ -36,14 +36,14 @@ const banners = [
         top: '20vh',
         right: '0',
         hideUnder: '1790px',
-        publisherId: 3,
+        publisherId: 0,
         zoneId: 9,
     },
     {
         width: BannerSizes['large-leaderboard'].width,
         height: BannerSizes['large-leaderboard'].height,
         hideUnder: BannerSizes['banner'].width,
-        publisherId: 3,
+        publisherId: 0,
         zoneId: 10,
     },
     {
@@ -51,7 +51,7 @@ const banners = [
         width: BannerSizes['mobile-banner'].width,
         hideUnder: BannerSizes['mobile-banner'].width,
         hideAbove: BannerSizes['banner'].width,
-        publisherId: 3,
+        publisherId: 0,
         zoneId: 11,
     },
 ];

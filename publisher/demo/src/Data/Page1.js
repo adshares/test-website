@@ -26,7 +26,7 @@ const banners = [
         top: '20vh',
         left: '0',
         hideUnder: '1790px',
-        publisherId: 3,
+        publisherId: 0,
         zoneId: 1,
     },
     {
@@ -36,13 +36,13 @@ const banners = [
         top: '20vh',
         right: '0',
         hideUnder: '1790px',
-        publisherId: 3,
+        publisherId: 0,
         zoneId: 2,
     },
     {
         height: BannerSizes['large-leaderboard'].height,
         width: BannerSizes['large-leaderboard'].width,
-        publisherId: 3,
+        publisherId: 0,
         zoneId: 3,
     },
 ];
