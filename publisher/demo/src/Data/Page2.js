@@ -26,7 +26,7 @@ const banners = [
         top: '20vh',
         left: '0',
         hideUnder: '1790px',
-        publisherId: 3,
+        publisherId: 0,
         zoneId: '950A658CACB246F8A142EFB722A2ACD4'
     },
     {
@@ -36,14 +36,14 @@ const banners = [
         top: '20vh',
         right: '0',
         hideUnder: '1790px',
-        publisherId: 3,
+        publisherId: 0,
         zoneId: '950A658CACB246F8A142EFB722A2ACD5',
     },
     {
         height: BannerSizes['banner'].height,
         width: BannerSizes['banner'].width,
         hideUnder: BannerSizes['banner'].width,
-        publisherId: 3,
+        publisherId: 0,
         zoneId: '950A658CACB246F8A142EFB722A2ACD6',
     },
     {
@@ -51,7 +51,7 @@ const banners = [
         width: BannerSizes['mobile-banner'].width,
         hideUnder: BannerSizes['mobile-banner'].width,
         hideAbove: BannerSizes['banner'].width,
-        publisherId: 3,
+        publisherId: 0,
         zoneId: '950A658CACB246F8A142EFB722A2ACD7',
     },
 ];
