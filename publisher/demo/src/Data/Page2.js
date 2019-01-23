@@ -27,7 +27,7 @@ const banners = [
         left: '0',
         hideUnder: '1790px',
         publisherId: 0,
-        zoneId: 4
+        zoneId: '950A658CACB246F8A142EFB722A2ACD4'
     },
     {
         height: BannerSizes['wide-skyscraper'].height,
@@ -37,14 +37,14 @@ const banners = [
         right: '0',
         hideUnder: '1790px',
         publisherId: 0,
-        zoneId: 5,
+        zoneId: '950A658CACB246F8A142EFB722A2ACD5',
     },
     {
         height: BannerSizes['banner'].height,
         width: BannerSizes['banner'].width,
         hideUnder: BannerSizes['banner'].width,
         publisherId: 0,
-        zoneId: 6,
+        zoneId: '950A658CACB246F8A142EFB722A2ACD6',
     },
     {
         height: BannerSizes['mobile-banner'].height,
@@ -52,7 +52,7 @@ const banners = [
         hideUnder: BannerSizes['mobile-banner'].width,
         hideAbove: BannerSizes['banner'].width,
         publisherId: 0,
-        zoneId: 7,
+        zoneId: '950A658CACB246F8A142EFB722A2ACD7',
     },
 ];
 
