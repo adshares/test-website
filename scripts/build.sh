@@ -19,7 +19,8 @@ if [ ! -v TRAVIS ]; then
   cd ${BUILD_PATH}/build
 fi
 
-mv servicesConfig-demo.js publisher/config/servicesConfig.js
+envsubst < servicesConfig.js.dist | tee publisher/config/servicesConfig.js
+
 cd publisher/demo
 
 # Install dependencies

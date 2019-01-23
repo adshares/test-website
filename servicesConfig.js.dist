@@ -1,0 +1,5 @@
+const SERVICES_URLS = {
+    1: '${ADSERVER_BASE_URL}/supply/find.js',
+};
+
+export default SERVICES_URLS;
