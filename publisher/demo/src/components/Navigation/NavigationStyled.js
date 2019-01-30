@@ -27,7 +27,23 @@ margin-right: ${props => props.marginRight || '0'};
     flex-direction: column;
   }
 `;
-export const ContentWithImage = styled(Content)`
+export const ContentWraper = styled.div`
+margin-right: ${props => props.marginRight || '0'};
+  font-size: 20px;
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+  
+  @media only screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+`;
+export const ContentWithImage = styled.div`
+margin-right: ${props => props.marginRight || '0'};
+  font-size: 20px;
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+  
+  @media only screen and (max-width: 767px) {
+    flex-direction: column;
+  }
 @media screen and (min-width:700px) {
   display: flex;
   justify-content: space-between;

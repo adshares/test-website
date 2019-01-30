@@ -31,51 +31,49 @@ class IndexPage extends React.Component {
         return (
             <Layout>
                 <SEO config={data.config} serverLink={this.state.currentService}/>
+                <AdBanner publisherId={data.leaderboard.publisherId}
+                          zoneId={data.leaderboard.zoneId}
+                          height={data.leaderboard.height}
+                          margin='40px auto'
+                          width={data.leaderboard.width}
+                          position={'static'}
+                          right={data.leaderboard.right || ''}
+                          hideUnder={data.leaderboard.hideUnder || ''}
+                          hideAbove={data.leaderboard.hideAbove || ''}> </AdBanner>
                 <MainPage
                     logo={logo}
                     bgImage={`url("${backgroundImage}")`}
                 />
-                <AdBanner  publisherId={data.largeMobileBanner.publisherId}
-                           zoneId={data.largeMobileBanner.zoneId}
-                           height={data.largeMobileBanner.height}
-                           margin='40px auto'
-                           width={data.largeMobileBanner.width}
-                           position={'static'}
-                           right={data.largeMobileBanner.right || ''}
-                           hideUnder={data.largeMobileBanner.hideUnder || ''}
-                           hideAbove={data.largeMobileBanner.hideAbove || ''}> </AdBanner>
                 <Articles articlesData={data.articles} largeBanner={data.largeBanner}/>
-                <AdBanner  publisherId={data.largeMobileBanner.publisherId}
-                           zoneId={data.largeMobileBanner.zoneId}
-                           height={data.largeMobileBanner.height}
-                           margin='0 auto'
-                           width={data.largeMobileBanner.width}
-                           position={'static'}
-                           right={data.largeMobileBanner.right || ''}
-                           hideUnder={data.largeMobileBanner.hideUnder || ''}
-                           hideAbove={data.largeMobileBanner.hideAbove || ''}> </AdBanner>
+                <AdBanner publisherId={data.largeMobileBanner.publisherId}
+                          zoneId={data.largeMobileBanner.zoneId}
+                          height={data.largeMobileBanner.height}
+                          margin='0 auto'
+                          width={data.largeMobileBanner.width}
+                          position={'static'}
+                          right={data.largeMobileBanner.right || ''}
+                          hideUnder={data.largeMobileBanner.hideUnder || ''}
+                          hideAbove={data.largeMobileBanner.hideAbove || ''}> </AdBanner>
                 <TextContent>
-                    <AdBanner  publisherId={data.largeRectangle.publisherId}
-                               zoneId={data.largeRectangle.zoneId}
-                               height={data.largeRectangle.height}
-                               margin='0'
-                               width={data.largeRectangle.width}
-                               position={'static'}
-                               right={data.largeRectangle.right || ''}
-                               hideUnder={data.largeRectangle.hideUnder || ''}
-                               hideAbove={data.largeRectangle.hideAbove || ''}> </AdBanner>
+                    <AdBanner publisherId={data.largeRectangle.publisherId}
+                              zoneId={data.largeRectangle.zoneId}
+                              height={data.largeRectangle.height}
+                              margin='0'
+                              width={data.largeRectangle.width}
+                              position={'static'}
+                              right={data.largeRectangle.right || ''}
+                              hideUnder={data.largeRectangle.hideUnder || ''}
+                              hideAbove={data.largeRectangle.hideAbove || ''}> </AdBanner>
 
-
-
-                    <AdBanner  publisherId={data.wideSkycraper.publisherId}
-                                 zoneId={data.wideSkycraper.zoneId}
-                                 height={data.wideSkycraper.height}
-                                 margin='0'
-                                 width={data.wideSkycraper.width}
-                                 position={'static'}
-                                 right={data.wideSkycraper.right || ''}
-                                 hideUnder={data.wideSkycraper.hideUnder || ''}
-                                 hideAbove={data.wideSkycraper.hideAbove || ''}> </AdBanner>
+                    <AdBanner publisherId={data.wideSkycraper.publisherId}
+                              zoneId={data.wideSkycraper.zoneId}
+                              height={data.wideSkycraper.height}
+                              margin='0'
+                              width={data.wideSkycraper.width}
+                              position={'static'}
+                              right={data.wideSkycraper.right || ''}
+                              hideUnder={data.wideSkycraper.hideUnder || ''}
+                              hideAbove={data.wideSkycraper.hideAbove || ''}> </AdBanner>
                 </TextContent>
                 <Footer/>
             </Layout>

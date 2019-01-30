@@ -15,14 +15,16 @@ const config = {
     siteDescription: '',
     siteKeywords: 'accio:200142, Pets: Cats',
 };
+
 const largeBanner = {
     height: BannerSizes['half-page'].height,
     width: BannerSizes['half-page'].width,
     hideUnder: '1024px',
     position: 'fixed',
     publisherId: 0,
-    zoneId: 'DA56B8902D764281B9CCCA29D45D7A3D', //fixme
+    zoneId: 'DA56B8902D764281B9CCCA29D45D7A3D',
 };
+
 const leaderboard = {
     width: BannerSizes['leaderboard'].width,
     height: BannerSizes['leaderboard'].height,
@@ -44,7 +46,7 @@ const largeRectangle = {
     width: BannerSizes['large-rectangle'].width,
     hideAbove: '600px',
     publisherId: 0,
-    zoneId: 'C378D1E62C02475AB64A2343C1E58A15 ',
+    zoneId: 'C378D1E62C02475AB64A2343C1E58A15',
 };
 
 const wideSkycraper = {

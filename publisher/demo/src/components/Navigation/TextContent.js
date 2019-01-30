@@ -1,5 +1,5 @@
 import React from 'react'
-import {TextSection, Content, Title, ContentWithImage} from './NavigationStyled'
+import {TextSection, Content, Title, ContentWithImage, ContentWraper} from './NavigationStyled'
 
 const TextContent = ({children}) => (
     <TextSection>
@@ -33,7 +33,7 @@ const TextContent = ({children}) => (
         </Content>
 
         <ContentWithImage>
-            <Content marginRight="40px">
+            <ContentWraper marginRight="40px">
                 <Content>
                     One of our main accomplishments of the previous year is the team that we built. We spent the first
                     months
@@ -78,7 +78,7 @@ const TextContent = ({children}) => (
                     By the end of December we exceeded 1 million test transaction in mainnet, which assured
                     us that the network is stable and ready to handle significant traffic.
                 </Content>
-            </Content>
+            </ContentWraper>
             <div>
                 {children}
             </div>
