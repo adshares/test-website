@@ -6,7 +6,7 @@ import {
   Subtitle,
   Title,
 } from './MainStyled'
-import Navigation from '../Navigation/Navigation'
+import TextContent from '../Navigation/TextContent'
 import MobileNav from "../MobileNav/MobileNav";
 
 const MainPage = ({
@@ -27,15 +27,9 @@ const MainPage = ({
       gridRowsTablet={gridRowsTablet}
       gridRowsMobile={gridRowsMobile}
     >
-      <MobileNav/>
-
-      <Navigation />
-      <LogoWrapper>
+        <LogoWrapper>
         <Logo src={logo} alt="Adshares " />
         <Title> Publisher demo site </Title>
-        <Subtitle>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </Subtitle>
       </LogoWrapper>
     </Main>
   )

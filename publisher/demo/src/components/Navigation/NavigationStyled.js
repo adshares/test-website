@@ -1,29 +1,37 @@
 import styled from 'styled-components'
 import {Link} from 'gatsby'
 
-export const Nav = styled.nav`
-  grid-area: main-nav;
-  display: none;
-  
-  &.mobile-nav {
-    display: block;
-    width: 55%;
-    background: rgba(0, 0 ,0, 0.8);
-    padding: 14px;
-  }
-  
-  @media only screen and (min-width: 768px) {
-    display: flex;
-    justify-content: center;
-  }
+export const TextSection = styled.section`
+max-width: 1460px;
+margin: 0 auto;
+padding: 0 64px;
+  display: flex;  
+  flex-direction: column;
+ 
 `;
 
-export const List = styled.ul`
+export const Title = styled.h1`
   display: flex;
   
   @media only screen and (max-width: 767px) {
     flex-direction: column;
   }
+`;
+
+export const Content = styled.p`
+margin-right: ${props => props.marginRight || '0'};
+  font-size: 20px;
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+  
+  @media only screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+`;
+export const ContentWithImage = styled(Content)`
+@media screen and (min-width:700px) {
+  display: flex;
+  justify-content: space-between;
+}
 `;
 
 export const NavLink = styled(Link)`

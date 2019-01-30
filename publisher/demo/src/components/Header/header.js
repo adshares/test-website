@@ -9,7 +9,7 @@ import {
     LogoWrapper,
     Title,
 } from './headerElements'
-import Navigation from "../Navigation/Navigation";
+import TextContent from "../Navigation/TextContent";
 import {Link} from "gatsby";
 
 const FixedHeader = ({shown, title}) => (
@@ -22,7 +22,7 @@ const FixedHeader = ({shown, title}) => (
                 <Title> {title} </Title>
             </LogoWrapper>
             <Container maxWidth='1860px'>
-                <Navigation fixed/>
+                <TextContent fixed/>
                 <Icon src={favoriteIcon}/>
             </Container>
         </Container>

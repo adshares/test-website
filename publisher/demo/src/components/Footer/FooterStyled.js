@@ -1,13 +1,16 @@
 import styled from 'styled-components'
+import {Link} from "../Atoms/atoms";
 
 export const FooterElement = styled.footer`
   max-width: 1860px;
+  width: 100%;
   margin: 0 auto;
   padding: 80px 5vw;
   overflow: hidden;
   display: flex;
-  flex-direction: column;
+  //flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   background-color: var(--blue);
 
   @media only screen and (min-width: 768px) {
@@ -19,7 +22,7 @@ export const FooterElement = styled.footer`
 `;
 
 export const BottomInfo = styled.div`
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
 
@@ -31,6 +34,18 @@ export const BottomInfo = styled.div`
   }
 `;
 
+export const ImageLink = styled(Link)`
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+`;
+
+export const Icon = styled.img`
+  height: 20px;
+  width: 20px;
+ 
+`
+
 export const Address = styled.address`
   display: flex;
   flex-direction: column;
@@ -38,7 +53,7 @@ export const Address = styled.address`
 `;
 
 export const CompanyName = styled.span`
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   font-size: 20px;
   line-height: 1.5;
   font-weight: 500;
@@ -56,7 +71,7 @@ export const LocationDetail = styled.span`
 `;
 
 export const Email = styled.a`
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.3;
   margin-top: 16px;
   color: var(--white);

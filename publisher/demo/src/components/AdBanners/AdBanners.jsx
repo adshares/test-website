@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from "styled-components";
 
-const AdBanner = styled.div.attrs({
+export const AdBanner = styled.div.attrs({
     className: 'a-name-that-does-not-collide',
     "data-pub": props => props.publisherId,
     "data-zone": props => props.zoneId,
 })`
-  margin: 16px auto;
+  margin:  ${props => props.margin || '16px auto'};
   height: ${props => props.height || '0px'};
   width: ${props => props.width || '0px'};
   background: var(--gray);
@@ -25,7 +25,7 @@ const AdBanner = styled.div.attrs({
   }
 `;
 
-const Banners = ({banners}) => {
+export const Banners = ({banners}) => {
     const Banners = banners.map((banner, index) => (<AdBanner key={index}
                                                               publisherId={banner.publisherId}
                                                               zoneId={banner.zoneId}

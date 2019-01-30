@@ -1,6 +1,6 @@
 import React from 'react'
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
-import Navigation from "../Navigation/Navigation";
+import TextContent from "../Navigation/TextContent";
 import {MenuContainer} from "./MobileNavStyled";
 
 class MobileNav extends React.Component {
@@ -31,8 +31,8 @@ class MobileNav extends React.Component {
         return (
             <MenuContainer>
                 <HamburgerMenu showMobileMenu={() => this.toggleMenu()} hideMobileMenu={(e) => this.hideMenu(e)}/>
-                {this.state.showNav && (<Navigation className="mobile-nav"
-                                      mobileShown={this.state.showNav}/>)}
+                {this.state.showNav && (<TextContent className="mobile-nav"
+                                                     mobileShown={this.state.showNav}/>)}
             </MenuContainer>
         )
     };

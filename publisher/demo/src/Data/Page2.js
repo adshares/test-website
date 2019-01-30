@@ -9,7 +9,7 @@ import {BannerSizes} from "../../../config/bannerConfig";
 
 const config = {
     pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "/portfolio"
-    siteTitle: 'Traveler publisher', // Navigation and Site Title
+    siteTitle: 'Traveler publisher', // TextContent and Site Title
     siteTitleAlt: 'Site about traveling', // Alternative Site title for SEO
     siteUrl: '/', // Domain of your site. No trailing slash!
     siteLanguage: 'en', // Language Tag on <html> element

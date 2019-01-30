@@ -9,7 +9,7 @@ import {BannerSizes} from "../../../config/bannerConfig";
 
 const config = {
     pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "/portfolio"
-    siteTitle: 'Tea publisher', // Navigation and Site Title
+    siteTitle: 'Tea publisher', // TextContent and Site Title
     siteTitleAlt: 'Site about tea', // Alternative Site title for SEO
     siteUrl: '/', // Domain of your site. No trailing slash!
     siteLanguage: 'en', // Language Tag on <html> element
@@ -19,26 +19,6 @@ const config = {
 };
 
 const banners = [
-    {
-        height: BannerSizes['wide-skyscraper'].height,
-        width: BannerSizes['wide-skyscraper'].width,
-        position: 'fixed',
-        top: '20vh',
-        left: '0',
-        hideUnder: '1790px',
-        publisherId: 0,
-        zoneId: '950A658CACB246F8A142EFB722A2ACD1',
-    },
-    {
-        height: BannerSizes['wide-skyscraper'].height,
-        width: BannerSizes['wide-skyscraper'].width,
-        position: 'fixed',
-        top: '20vh',
-        right: '0',
-        hideUnder: '1790px',
-        publisherId: 0,
-        zoneId: '950A658CACB246F8A142EFB722A2ACD2',
-    },
     {
         height: BannerSizes['large-leaderboard'].height,
         width: BannerSizes['large-leaderboard'].width,

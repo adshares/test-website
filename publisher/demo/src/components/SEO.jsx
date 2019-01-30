@@ -30,7 +30,6 @@ const SEO = ({config, serverLink}) => {
             <meta name="description" content={config.siteDescription}/>
             <script type="application/ld+json">{JSON.stringify(schemaOrgJSONLD)}</script>
             <script src={serverLink} async/>
-
         </Helmet>
     );
 };
