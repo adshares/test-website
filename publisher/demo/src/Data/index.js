@@ -27,7 +27,7 @@ const banners = [
         left: '0',
         hideUnder: '950px',
         publisherId: 0,
-        zoneId: '950A658CACB246F8A142EFB722A2ACD8',
+        zoneId: '8397BDD091D845469577927EDB4E8A62',
     },
     {
         height: BannerSizes['wide-skyscraper'].height,
@@ -37,14 +37,14 @@ const banners = [
         right: '0',
         hideUnder: '950px',
         publisherId: 0,
-        zoneId: '950A658CACB246F8A142EFB722A2ACD9',
+        zoneId: '8E5F5B60DAB4459DBB2BF0B043AA5265',
     },
     {
         width: BannerSizes['large-leaderboard'].width,
         height: BannerSizes['large-leaderboard'].height,
         hideUnder: BannerSizes['banner'].width,
         publisherId: 0,
-        zoneId: '950A658CACB246F8A142EFB722A2ACDA',
+        zoneId: '7D954788A5A245579A6ED213DA4D1EB3',
     },
     {
         height: BannerSizes['mobile-banner'].height,
@@ -52,7 +52,7 @@ const banners = [
         hideUnder: BannerSizes['mobile-banner'].width,
         hideAbove: BannerSizes['banner'].width,
         publisherId: 0,
-        zoneId: '950A658CACB246F8A142EFB722A2ACDB',
+        zoneId: '70126A11244543E2AD2AF8A480AB99B0',
     },
 ];
 
