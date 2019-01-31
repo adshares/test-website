@@ -36,6 +36,7 @@ export const BottomInfo = styled.div`
 
 export const ImageLink = styled(Link)`
   height: 30px;
+  cursor: pointer;
   
   &:not(:last-of-type){
   margin-right: 16px;  
@@ -45,7 +46,7 @@ export const ImageLink = styled(Link)`
 export const Icon = styled.img`
   height: 20px;
   width: 20px;
- 
+  cursor: pointer; 
 `;
 
 export const Address = styled.address`

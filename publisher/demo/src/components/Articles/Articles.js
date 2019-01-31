@@ -2,7 +2,8 @@ import React from 'react'
 import {
     Article,
     ArticlesSection,
-    ArticleTitle, LargeBanner,
+    ArticleTitle,
+    LargeBanner,
 } from './ArticlesStyled'
 import {Link} from '../Atoms/atoms'
 
