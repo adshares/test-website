@@ -8,16 +8,16 @@ export const FooterElement = styled.footer`
   padding: 80px 5vw;
   overflow: hidden;
   display: flex;
-  //flex-direction: column;
   align-items: center;
   justify-content: space-between;
   background-color: var(--blue);
+  flex-direction: column;
 
   @media only screen and (min-width: 768px) {
     height: 20vh;
     padding: 0;
     justify-content: center;
-    align-items: center;
+    flex-direction: row;
   }
 `;
 
@@ -35,21 +35,34 @@ export const BottomInfo = styled.div`
 `;
 
 export const ImageLink = styled(Link)`
-  width: 30px;
   height: 30px;
-  margin-right: 16px;
+  
+  &:not(:last-of-type){
+  margin-right: 16px;  
+  }
 `;
 
 export const Icon = styled.img`
   height: 20px;
   width: 20px;
  
-`
+`;
 
 export const Address = styled.address`
   display: flex;
   flex-direction: column;
   color: var(--white);
+  @media only screen and (max-width: 768px) {
+   align-items: center;
+  }
+`;
+
+export const SocialMedia = styled.section`
+  display: flex;
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 24px;
+  }
 `;
 
 export const CompanyName = styled.span`

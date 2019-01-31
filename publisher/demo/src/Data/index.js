@@ -7,7 +7,7 @@ import {BannerSizes} from "../../../config/bannerConfig";
 
 const config = {
     pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "/portfolio"
-    siteTitle: 'Veterinarian publisher', // TextContent and Site Title
+    siteTitle: 'Adshares demo site', // TextContent and Site Title
     siteTitleAlt: 'Site about cats', // Alternative Site title for SEO
     siteUrl: '/', // Domain of your site. No trailing slash!
     siteLanguage: 'en', // Language Tag on <html> element
@@ -22,7 +22,7 @@ const largeBanner = {
     hideUnder: '1024px',
     position: 'fixed',
     publisherId: 0,
-    zoneId: 'DA56B8902D764281B9CCCA29D45D7A3D',
+    zoneId: '85550B058FC74FAAB5819EF410204DAD',
 };
 
 const leaderboard = {
@@ -30,7 +30,7 @@ const leaderboard = {
     height: BannerSizes['leaderboard'].height,
     hideUnder: BannerSizes['leaderboard'].width,
     publisherId: 0,
-    zoneId: '077592C3D8584260B071D2CE12BAFBF4',
+    zoneId: '2BC0FCA670F74D4C8B048D8CFF2DD867',
 };
 
 const largeMobileBanner = {
@@ -38,7 +38,7 @@ const largeMobileBanner = {
     width: BannerSizes['large-mobile-banner'].width,
     hideAbove: '767px',
     publisherId: 0,
-    zoneId: '44B51991B52D4B3DA1CFA15C065CA94B',
+    zoneId: '4813552BD3754ED78752AA027BF0A6F3',
 };
 
 const largeRectangle = {
@@ -46,7 +46,7 @@ const largeRectangle = {
     width: BannerSizes['large-rectangle'].width,
     hideAbove: '767px',
     publisherId: 0,
-    zoneId: 'C378D1E62C02475AB64A2343C1E58A15',
+    zoneId: '51968EDF94BB4EDABCB5EFD14169A71B',
 };
 
 const wideSkycraper = {
@@ -54,7 +54,7 @@ const wideSkycraper = {
     width: BannerSizes['wide-skyscraper'].width,
     hideUnder: '1024px',
     publisherId: 0,
-    zoneId: 'E6DE49436FB346BEA2E5DD499968E438',
+    // zoneId: 'E6DE49436FB346BEA2E5DD499968E438',
 };
 
 const articles = [

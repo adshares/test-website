@@ -1,10 +1,9 @@
 import React from 'react'
-import {TextSection, Content, Title, ContentWithImage, ContentWraper} from './NavigationStyled'
+import {TextSection, Content, Title, ContentWithImage, ContentWraper} from './TextContentStyled'
 import data from '../../Data/index'
 import {AdBanner} from "../AdBanners/AdBanners";
-import Layout from "../layout";
 
-const TextContent = ({children}) => (
+const TextContent = () => (
     <TextSection>
         <Title>
             Blockchain in digital advertising. Did 2018 bring us closer to a breakthrough?
@@ -13,7 +12,7 @@ const TextContent = ({children}) => (
         <ContentWithImage>
             <div>
                 <AdBanner publisherId={data.wideSkycraper.publisherId}
-                          zoneId={data.wideSkycraper.zoneId}
+                          zoneId='575961F04FF341048169322F082F5A5B'
                           height={data.wideSkycraper.height}
                           margin='0'
                           width={data.wideSkycraper.width}
@@ -61,7 +60,7 @@ const TextContent = ({children}) => (
                     the ADS cryptocurrency, which is the foundation of our ecosystem, is listed on Bitker exchange.
                 </Content>
                 <AdBanner publisherId={data.leaderboard.publisherId}
-                          zoneId={data.leaderboard.zoneId}
+                          zoneId='60D6A9C246D64B9C8F094E792DAC2DC0'
                           height={data.leaderboard.height}
                           margin='40px auto'
                           width={data.leaderboard.width}
@@ -84,7 +83,7 @@ const TextContent = ({children}) => (
                     breakthrough and transform the market.
                 </Content>
                 <AdBanner publisherId={data.largeMobileBanner.publisherId}
-                          zoneId={data.largeMobileBanner.zoneId}
+                          zoneId='D98F05A0753045938E4F7561D829B83B'
                           height={data.largeMobileBanner.height}
                           margin='0'
                           width={data.largeMobileBanner.width}
@@ -115,7 +114,7 @@ const TextContent = ({children}) => (
                     upgrades.
                 </Content>
                 <AdBanner publisherId={data.largeMobileBanner.publisherId}
-                          zoneId={data.largeMobileBanner.zoneId}
+                          zoneId='A6CFAF567B774B719CD6FEA3F9BC218D'
                           height={data.largeMobileBanner.height}
                           margin='0'
                           width={data.largeMobileBanner.width}
@@ -137,7 +136,7 @@ const TextContent = ({children}) => (
                     us that the network is stable and ready to handle significant traffic.
                 </Content>
                 <AdBanner publisherId={data.leaderboard.publisherId}
-                          zoneId={data.leaderboard.zoneId}
+                          zoneId='E77BCC6DCE61464BBC4F35F9443D1F47'
                           height={data.leaderboard.height}
                           margin='40px auto'
                           width={data.leaderboard.width}
@@ -146,7 +145,7 @@ const TextContent = ({children}) => (
                           hideUnder={data.leaderboard.hideUnder || ''}
                           hideAbove={data.leaderboard.hideAbove || ''}> </AdBanner>
                 <AdBanner publisherId={data.largeRectangle.publisherId}
-                          zoneId={data.largeRectangle.zoneId}
+                          zoneId='6AB1B004E1884CA1B32BC7FE8B7A889B'
                           height={data.largeRectangle.height}
                           margin='0'
                           width={data.largeRectangle.width}
@@ -157,7 +156,7 @@ const TextContent = ({children}) => (
             </ContentWraper>
             <div>
                 <AdBanner publisherId={data.wideSkycraper.publisherId}
-                          zoneId={data.wideSkycraper.zoneId}
+                          zoneId='00A000A34302492EA5730CF05C59C80E'
                           height={data.wideSkycraper.height}
                           margin='0'
                           width={data.wideSkycraper.width}

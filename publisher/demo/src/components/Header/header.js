@@ -9,7 +9,7 @@ import {
     LogoWrapper,
     Title,
 } from './headerElements'
-import TextContent from "../Navigation/TextContent";
+import TextContent from "../TextContent/TextContent";
 import {Link} from "gatsby";
 
 const FixedHeader = ({shown, title}) => (

@@ -1,6 +1,6 @@
 import React from 'react'
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
-import TextContent from "../Navigation/TextContent";
+import TextContent from "../TextContent/TextContent";
 import {MenuContainer} from "./MobileNavStyled";
 
 class MobileNav extends React.Component {
