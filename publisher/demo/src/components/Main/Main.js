@@ -3,11 +3,8 @@ import {
   Logo,
   LogoWrapper,
   Main,
-  Subtitle,
   Title,
 } from './MainStyled'
-import TextContent from '../TextContent/TextContent'
-import MobileNav from "../MobileNav/MobileNav";
 
 const MainPage = ({
   title,
@@ -33,6 +30,6 @@ const MainPage = ({
       </LogoWrapper>
     </Main>
   )
-}
+};
 
 export default MainPage

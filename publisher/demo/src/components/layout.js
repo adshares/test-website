@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-
-import Header from './Header/header'
 import './layout.module.css'
 
 const Layout = ({children}) => (
@@ -18,7 +16,6 @@ const Layout = ({children}) => (
             <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,400i,500,600,700,800"
                   rel="stylesheet"/>
         </Helmet>
-        <Header siteTitle="Adshares"/>
         <div
             style={{
                 margin: '0 auto',
@@ -28,10 +25,10 @@ const Layout = ({children}) => (
             {children}
         </div>
     </div>
-)
+);
 
 Layout.propTypes = {
     children: PropTypes.node.isRequired,
-}
+};
 
 export default Layout

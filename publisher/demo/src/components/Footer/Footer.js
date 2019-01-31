@@ -4,13 +4,14 @@ import {
     BottomInfo,
     CompanyName,
     Email,
-    FooterElement, Icon, ImageLink,
-    LocationDetail, SocialMedia,
+    FooterElement,
+    Icon,
+    ImageLink,
+    SocialMedia,
 } from './FooterStyled'
 import telegram from "../../assets/icons/telegram.svg";
 import medium from "../../assets/icons/medium.svg";
 import reddit from "../../assets/icons/reddit.svg";
-import github from "../../assets/icons/github.svg";
 import linkedIn from "../../assets/icons/07_linkedin.svg";
 import twitter from "../../assets/icons/twitter.svg";
 import {Link} from "../Atoms/atoms";
