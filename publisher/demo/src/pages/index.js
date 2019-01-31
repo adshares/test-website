@@ -44,7 +44,7 @@ class IndexPage extends React.Component {
                     logo={logo}
                     bgImage={`url("${backgroundImage}")`}
                 />
-                <Articles articlesData={data.articles} largeBanner={data.largeBanner}/>
+                <Articles articlesData={data.articles} largeBanner={data.largeBanner} largeBannerMobile={data.largeRectangle}/>
                 <AdBanner publisherId={data.largeMobileBanner.publisherId}
                           zoneId={data.largeMobileBanner.zoneId}
                           height={data.largeMobileBanner.height}
@@ -54,27 +54,7 @@ class IndexPage extends React.Component {
                           right={data.largeMobileBanner.right || ''}
                           hideUnder={data.largeMobileBanner.hideUnder || ''}
                           hideAbove={data.largeMobileBanner.hideAbove || ''}> </AdBanner>
-                <TextContent>
-                    <AdBanner publisherId={data.largeRectangle.publisherId}
-                              zoneId={data.largeRectangle.zoneId}
-                              height={data.largeRectangle.height}
-                              margin='0'
-                              width={data.largeRectangle.width}
-                              position={'static'}
-                              right={data.largeRectangle.right || ''}
-                              hideUnder={data.largeRectangle.hideUnder || ''}
-                              hideAbove={data.largeRectangle.hideAbove || ''}> </AdBanner>
-
-                    <AdBanner publisherId={data.wideSkycraper.publisherId}
-                              zoneId={data.wideSkycraper.zoneId}
-                              height={data.wideSkycraper.height}
-                              margin='0'
-                              width={data.wideSkycraper.width}
-                              position={'static'}
-                              right={data.wideSkycraper.right || ''}
-                              hideUnder={data.wideSkycraper.hideUnder || ''}
-                              hideAbove={data.wideSkycraper.hideAbove || ''}> </AdBanner>
-                </TextContent>
+                <TextContent/>
                 <Footer/>
             </Layout>
         )

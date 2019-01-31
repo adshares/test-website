@@ -36,7 +36,7 @@ const leaderboard = {
 const largeMobileBanner = {
     height: BannerSizes['large-mobile-banner'].height,
     width: BannerSizes['large-mobile-banner'].width,
-    hideAbove: '600px',
+    hideAbove: '767px',
     publisherId: 0,
     zoneId: '44B51991B52D4B3DA1CFA15C065CA94B',
 };
@@ -44,7 +44,7 @@ const largeMobileBanner = {
 const largeRectangle = {
     height: BannerSizes['large-rectangle'].height,
     width: BannerSizes['large-rectangle'].width,
-    hideAbove: '600px',
+    hideAbove: '767px',
     publisherId: 0,
     zoneId: 'C378D1E62C02475AB64A2343C1E58A15',
 };
@@ -64,14 +64,12 @@ const articles = [
         title: 'ADST to ADS — community-based conversion',
         href: 'https://medium.com/adshares/adst-to-ads-community-based-conversion-337e148f499f',
     },
-
     {
         backgroundImage: `url("${article3}")`,
         backgroundPosition: 'bottom',
         title: 'Adshares launches ADS Wallet. Another milestone on our journey to transform programmatic advertising.',
         href: 'https://medium.com/adshares/adshares-launches-ads-wallet-da820f10dc2f',
     },
-
     {
         backgroundImage: `url("${article5}")`,
         title: 'Blockchain in digital advertising. Did 2018 bring us closer to a breakthrough?',

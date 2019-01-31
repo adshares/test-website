@@ -1,15 +1,22 @@
 import styled from 'styled-components'
 import {AdBanner} from "../AdBanners/AdBanners";
 
-export const  LargeBanner = styled(AdBanner)`
+export const LargeBanner = styled(AdBanner)`
 grid-area: half-page;
+  @media only screen and (max-width: 767px) {
+  margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 10px;
+justify-content: center;
+  }
+
 `;
 export const ArticlesSection = styled.section`
   max-width: 1460px;
   margin: 40px auto;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);
-  grid-template-areas:"article-1" "article-2" "article-3" "article-4"  ;
+  grid-template-areas:"article-1" "half-page" "article-2" "article-3" "article-4"  ;
   background-color: rgba(242, 242, 242, 0.85);
   grid-gap: 30px;
 

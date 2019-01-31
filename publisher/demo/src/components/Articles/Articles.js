@@ -5,10 +5,10 @@ import {
     ArticleTitle, LargeBanner,
 } from './ArticlesStyled'
 import {Link} from '../Atoms/atoms'
-import Banners, {AdBanner} from "../AdBanners/AdBanners";
 
 const Articles = ({
                       largeBanner,
+                      largeBannerMobile,
                       articlesData,
                       children,
                       gridMobile,
@@ -35,6 +35,15 @@ const Articles = ({
             gridDesktop={gridDesktop}
             rowsDesktop={rowsDesktop}
         >
+            <LargeBanner publisherId={largeBannerMobile.publisherId}
+                         zoneId={largeBannerMobile.zoneId}
+                         height={largeBannerMobile.height}
+                         margin='0'
+                         width={largeBannerMobile.width}
+                         position={'static'}
+                         right={largeBannerMobile.right || ''}
+                         hideUnder={largeBannerMobile.hideUnder || ''}
+                         hideAbove={largeBannerMobile.hideAbove || ''}> </LargeBanner>
             <LargeBanner publisherId={largeBanner.publisherId}
                          zoneId={largeBanner.zoneId}
                          height={largeBanner.height}
