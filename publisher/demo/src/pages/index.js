@@ -11,7 +11,7 @@ import data from '../Data/index'
 import SEO from "../components/SEO";
 import {AdBanner} from "../components/AdBanners/AdBanners";
 import SERVICES_URLS from "../../../config/servicesConfig";
-import TextContent from "../components/Navigation/TextContent";
+import TextContent from "../components/TextContent/TextContent";
 
 
 class IndexPage extends React.Component {

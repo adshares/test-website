@@ -6,7 +6,7 @@ import {
   Subtitle,
   Title,
 } from './MainStyled'
-import TextContent from '../Navigation/TextContent'
+import TextContent from '../TextContent/TextContent'
 import MobileNav from "../MobileNav/MobileNav";
 
 const MainPage = ({
