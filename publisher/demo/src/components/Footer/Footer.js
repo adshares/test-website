@@ -5,7 +5,7 @@ import {
     CompanyName,
     Email,
     FooterElement, Icon, ImageLink,
-    LocationDetail,
+    LocationDetail, SocialMedia,
 } from './FooterStyled'
 import telegram from "../../assets/icons/telegram.svg";
 import medium from "../../assets/icons/medium.svg";
@@ -29,7 +29,7 @@ const Footer = ({children}) => (
             {children}
         </BottomInfo>
         <BottomInfo>
-            <div>
+            <SocialMedia>
                 <ImageLink href="https://medium.com/adshares/">
                     <Icon src={medium} alt="medium"/>
                 </ImageLink>
@@ -47,7 +47,7 @@ const Footer = ({children}) => (
                 <ImageLink href="https://www.linkedin.com/company/adshares/">
                     <Icon src={linkedIn} alt="twitter"/>
                 </ImageLink>
-            </div>
+            </SocialMedia>
         </BottomInfo>
     </FooterElement>
 );
