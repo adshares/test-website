@@ -2,7 +2,7 @@ import React from 'react'
 import {
     Article,
     ArticlesSection,
-    ArticleTitle,
+    ArticleTitle, CallToAction,
     LargeBanner,
 } from './ArticlesStyled'
 import {Link} from '../Atoms/atoms'
@@ -18,15 +18,17 @@ const Articles = ({
                   }) => {
     const Articles = articlesData.map((article, index) => (
         <Article index={index + 1}
+                 href={article.href}
+                 target="_blank"
                  key={`${article.title}_${index}`}
                  bgImg={article.backgroundImage}
                  bgColor={article.backgroundColor}
                  bgPosition={article.backgroundPosition}>
             <ArticleTitle color={article.color}>{article.title}</ArticleTitle>
-            <Link href={article.href} color={article.color && 'var(--blue)'}>
+            <CallToAction href={article.href} color={article.color && 'var(--blue)'}>
                 {' '}
                 READ{' '}
-            </Link>
+            </CallToAction>
         </Article>
     ))
 

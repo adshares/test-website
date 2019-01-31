@@ -66,8 +66,8 @@ const TextContent = () => (
                           width={data.leaderboard.width}
                           position={'static'}
                           right={data.leaderboard.right || ''}
-                          hideUnder={data.leaderboard.hideUnder || ''}
-                          hideAbove={data.leaderboard.hideAbove || ''}> </AdBanner>
+                          hideUnder='808px'
+                          hideAbove='1024px'> </AdBanner>
             </ContentWraper>
         </ContentWithImage>
 
@@ -142,7 +142,7 @@ const TextContent = () => (
                           width={data.leaderboard.width}
                           position={'static'}
                           right={data.leaderboard.right || ''}
-                          hideUnder={data.leaderboard.hideUnder || ''}
+                          hideUnder='808px'
                           hideAbove={data.leaderboard.hideAbove || ''}> </AdBanner>
                 <AdBanner publisherId={data.largeRectangle.publisherId}
                           zoneId='6AB1B004E1884CA1B32BC7FE8B7A889B'

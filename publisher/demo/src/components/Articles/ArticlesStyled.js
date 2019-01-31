@@ -31,12 +31,13 @@ export const ArticlesSection = styled.section`
  
 `
 
-export const Article = styled.article`
+export const Article = styled.a`
   grid-area: ${props => `article-${props.index}`};
   background-color: ${props => props.bgColor || ''};
   background: ${props => `linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),  ${props.bgImg} ` || ''};
   background-size: ${props => props.bgSize || 'cover'};
   background-position: top;
+  text-decoration: none;
   min-height: 280px;
   padding: 40px;
   margin-bottom: 32px;
@@ -67,11 +68,15 @@ export const ArticleTitle = styled.h2`
   font-size: ${props => props.fontSize || '24px'};
   font-weight: 600;
   margin-bottom: 20px;
+  text-decoration: none;
   color: ${props => props.color || `var(--white)`};
   
     @media only screen and (min-width: 1024px) {
       font-size: ${props => props.fontSize || '24px'};
     }
+`;
+export const CallToAction = styled.span`
+  color: ${props => props.color || `var(--white)`};
 `;
 
 export const IconWrapper = styled.div`

@@ -38,7 +38,7 @@ class IndexPage extends React.Component {
                           width={data.leaderboard.width}
                           position={'static'}
                           right={data.leaderboard.right || ''}
-                          hideUnder={data.leaderboard.hideUnder || ''}
+                          hideUnder='808px'
                           hideAbove={data.leaderboard.hideAbove || ''}> </AdBanner>
                 <MainPage
                     logo={logo}
