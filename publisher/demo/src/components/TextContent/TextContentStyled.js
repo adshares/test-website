@@ -46,7 +46,7 @@ export const ContentWraper = styled.div`
     align-items: center;
   }
     
-    @media only screen and (min-width: 767px) {
+    @media only screen and (min-width: 1024px) {
     margin-right: ${props => props.marginRight || '0'};
     margin-left: ${props => props.marginLeft || '0'};
   }
