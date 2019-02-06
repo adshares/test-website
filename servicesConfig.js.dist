@@ -1,5 +1,3 @@
-const SERVICES_URLS = {
-    1: '${ADSERVER_BASE_URL}/supply/find.js${VERSION_URL_SUFFIX}',
-};
+const SERVER_URL = '${ADSERVER_BASE_URL}/supply/find.js${VERSION_URL_SUFFIX}';
 
-export default SERVICES_URLS;
+export default SERVER_URL;
