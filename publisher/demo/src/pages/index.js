@@ -11,11 +11,11 @@ import data from '../Data/index'
 import SEO from "../components/SEO";
 import {AdBanner} from "../components/AdBanners/AdBanners";
 import TextContent from "../components/TextContent/TextContent";
-
+import SERVER_URL from "../../../config/servicesConfig";
 
 class IndexPage extends React.Component {
     state = {
-        currentService: '//demo-server.adshares.net/supply/find.js?x=' + Math.random(),
+        currentService: SERVER_URL,
     };
 
     render() {

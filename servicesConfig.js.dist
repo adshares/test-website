@@ -1,5 +1,5 @@
 const SERVICES_URLS = {
-    1: '${ADSERVER_BASE_URL}/supply/find.js?x=' + Math.random(),
+    1: '${ADSERVER_BASE_URL}/supply/find.js${VERSION_URL_SUFFIX}',
 };
 
 export default SERVICES_URLS;

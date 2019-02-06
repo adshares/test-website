@@ -4,7 +4,8 @@ set -e
 
 env | sort
 
-if [ ! -v TRAVIS ]; then
+if [[ -v GIT_CLONE ]]
+then
   # Checkout repo and change directory
 
   # Install git
@@ -19,6 +20,8 @@ if [ ! -v TRAVIS ]; then
   cd ${BUILD_PATH}/build
 fi
 
+export ADSERVER_BASE_URL=${ADSERVER_BASE_URL:-"//localhost:8101"}
+export VERSION_URL_SUFFIX=${VERSION_URL_SUFFIX:-"?v="${APP_VERSION:-`date +%s | sha256sum | base64 | head -c 32 ; echo`}}
 envsubst < servicesConfig.js.dist | tee publisher/config/servicesConfig.js
 
 cd publisher/demo
