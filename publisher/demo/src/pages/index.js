@@ -10,21 +10,12 @@ import logo from './../assets/icons/adshares-logo.svg'
 import data from '../Data/index'
 import SEO from "../components/SEO";
 import {AdBanner} from "../components/AdBanners/AdBanners";
-import SERVICES_URLS from "../../../config/servicesConfig";
 import TextContent from "../components/TextContent/TextContent";
 
 
 class IndexPage extends React.Component {
     state = {
-        currentService: SERVICES_URLS["1"],
-    };
-
-    changeServer = (url) => {
-        if (this.state.currentService !== url) {
-            this.setState({
-                currentService: url,
-            })
-        }
+        currentService: '//demo-server.adshares.net/supply/find.js?x=' + Math.random(),
     };
 
     render() {
@@ -44,7 +35,8 @@ class IndexPage extends React.Component {
                     logo={logo}
                     bgImage={`url("${backgroundImage}")`}
                 />
-                <Articles articlesData={data.articles} largeBanner={data.largeBanner} largeBannerMobile={data.largeRectangle}/>
+                <Articles articlesData={data.articles} largeBanner={data.largeBanner}
+                          largeBannerMobile={data.largeRectangle}/>
                 <AdBanner publisherId={data.largeMobileBanner.publisherId}
                           zoneId={data.largeMobileBanner.zoneId}
                           height={data.largeMobileBanner.height}
