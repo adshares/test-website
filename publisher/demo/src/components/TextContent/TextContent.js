@@ -11,15 +11,15 @@ const TextContent = () => (
 
         <ContentWithImage>
             <div>
-                <AdBanner publisherId={data.wideSkycraper.publisherId}
-                          zoneId='575961F04FF341048169322F082F5A5B'
-                          height={data.wideSkycraper.height}
+                <AdBanner publisherId={data.wideSkyscraper.publisherId}
+                          zoneId={data.wideSkyscraper.zoneId}
+                          height={data.wideSkyscraper.height}
                           margin='0'
-                          width={data.wideSkycraper.width}
+                          width={data.wideSkyscraper.width}
                           position={'static'}
-                          right={data.wideSkycraper.right || ''}
-                          hideUnder={data.wideSkycraper.hideUnder || ''}
-                          hideAbove={data.wideSkycraper.hideAbove || ''}> </AdBanner>
+                          right={data.wideSkyscraper.right || ''}
+                          hideUnder={data.wideSkyscraper.hideUnder || ''}
+                          hideAbove={data.wideSkyscraper.hideAbove || ''}> </AdBanner>
             </div>
             <ContentWraper marginLeft="40px">
                 <Content>
@@ -59,13 +59,13 @@ const TextContent = () => (
                     and
                     the ADS cryptocurrency, which is the foundation of our ecosystem, is listed on Bitker exchange.
                 </Content>
-                <AdBanner publisherId={data.leaderboard.publisherId}
-                          zoneId='60D6A9C246D64B9C8F094E792DAC2DC0'
-                          height={data.leaderboard.height}
+                <AdBanner publisherId={data.leaderboard2.publisherId}
+                          zoneId={data.leaderboard2.zoneId}
+                          height={data.leaderboard2.height}
                           margin='40px auto'
-                          width={data.leaderboard.width}
+                          width={data.leaderboard2.width}
                           position={'static'}
-                          right={data.leaderboard.right || ''}
+                          right={data.leaderboard2.right || ''}
                           hideUnder='808px'
                           hideAbove='1024px'> </AdBanner>
             </ContentWraper>
@@ -82,15 +82,15 @@ const TextContent = () => (
                     digital advertising. We managed to build a team of brilliant, like-minded people who want to make a
                     breakthrough and transform the market.
                 </Content>
-                <AdBanner publisherId={data.largeMobileBanner.publisherId}
-                          zoneId='D98F05A0753045938E4F7561D829B83B'
-                          height={data.largeMobileBanner.height}
+                <AdBanner publisherId={data.largeMobileBanner2.publisherId}
+                          zoneId={data.largeMobileBanner2.zoneId}
+                          height={data.largeMobileBanner2.height}
                           margin='0'
-                          width={data.largeMobileBanner.width}
+                          width={data.largeMobileBanner2.width}
                           position={'static'}
-                          right={data.largeMobileBanner.right || ''}
-                          hideUnder={data.largeMobileBanner.hideUnder || ''}
-                          hideAbove={data.largeMobileBanner.hideAbove || ''}> </AdBanner>
+                          right={data.largeMobileBanner2.right || ''}
+                          hideUnder={data.largeMobileBanner2.hideUnder || ''}
+                          hideAbove={data.largeMobileBanner2.hideAbove || ''}> </AdBanner>
                 <Content>
 
                     Last year we also managed to integrate our advertising ecosystem with the ultra-fast ESC Blockchain
@@ -113,15 +113,15 @@ const TextContent = () => (
                     other
                     upgrades.
                 </Content>
-                <AdBanner publisherId={data.largeMobileBanner.publisherId}
-                          zoneId='A6CFAF567B774B719CD6FEA3F9BC218D'
-                          height={data.largeMobileBanner.height}
+                <AdBanner publisherId={data.largeMobileBanner3.publisherId}
+                          zoneId={data.largeMobileBanner3.zoneId}
+                          height={data.largeMobileBanner3.height}
                           margin='0'
-                          width={data.largeMobileBanner.width}
+                          width={data.largeMobileBanner3.width}
                           position={'static'}
-                          right={data.largeMobileBanner.right || ''}
-                          hideUnder={data.largeMobileBanner.hideUnder || ''}
-                          hideAbove={data.largeMobileBanner.hideAbove || ''}> </AdBanner>
+                          right={data.largeMobileBanner3.right || ''}
+                          hideUnder={data.largeMobileBanner3.hideUnder || ''}
+                          hideAbove={data.largeMobileBanner3.hideAbove || ''}> </AdBanner>
                 <Content>
 
                     In December we launched our very first campaign on crowdholding.com, and soon afterwards
@@ -135,17 +135,17 @@ const TextContent = () => (
                     By the end of December we exceeded 1 million test transaction in mainnet, which assured
                     us that the network is stable and ready to handle significant traffic.
                 </Content>
-                <AdBanner publisherId={data.leaderboard.publisherId}
-                          zoneId='E77BCC6DCE61464BBC4F35F9443D1F47'
-                          height={data.leaderboard.height}
+                <AdBanner publisherId={data.leaderboard3.publisherId}
+                          zoneId={data.leaderboard3.zoneId}
+                          height={data.leaderboard3.height}
                           margin='40px auto'
-                          width={data.leaderboard.width}
+                          width={data.leaderboard3.width}
                           position={'static'}
-                          right={data.leaderboard.right || ''}
+                          right={data.leaderboard3.right || ''}
                           hideUnder='808px'
-                          hideAbove={data.leaderboard.hideAbove || ''}> </AdBanner>
+                          hideAbove={data.leaderboard3.hideAbove || ''}> </AdBanner>
                 <AdBanner publisherId={data.largeRectangle.publisherId}
-                          zoneId='6AB1B004E1884CA1B32BC7FE8B7A889B'
+                          zoneId={data.largeRectangle.zoneId}
                           height={data.largeRectangle.height}
                           margin='0'
                           width={data.largeRectangle.width}
@@ -155,15 +155,15 @@ const TextContent = () => (
                           hideAbove={data.largeRectangle.hideAbove || ''}> </AdBanner>
             </ContentWraper>
             <div>
-                <AdBanner publisherId={data.wideSkycraper.publisherId}
-                          zoneId='00A000A34302492EA5730CF05C59C80E'
-                          height={data.wideSkycraper.height}
+                <AdBanner publisherId={data.wideSkyscraper2.publisherId}
+                          zoneId={data.wideSkyscraper2.zoneId}
+                          height={data.wideSkyscraper2.height}
                           margin='0'
-                          width={data.wideSkycraper.width}
+                          width={data.wideSkyscraper2.width}
                           position={'static'}
-                          right={data.wideSkycraper.right || ''}
-                          hideUnder={data.wideSkycraper.hideUnder || ''}
-                          hideAbove={data.wideSkycraper.hideAbove || ''}> </AdBanner>
+                          right={data.wideSkyscraper2.right || ''}
+                          hideUnder={data.wideSkyscraper2.hideUnder || ''}
+                          hideAbove={data.wideSkyscraper2.hideAbove || ''}> </AdBanner>
             </div>
         </ContentWithImage>
 

@@ -13,7 +13,7 @@ const config = {
     siteLanguage: 'en', // Language Tag on <html> element
     siteLogo: logo, // Used for SEO and manifest
     siteDescription: '',
-    siteKeywords: 'accio:200142, Pets: Cats',
+    siteKeywords: 'Pets: Cats',
 };
 
 const largeBanner = {
@@ -33,6 +33,22 @@ const leaderboard = {
     zoneId: '2BC0FCA670F74D4C8B048D8CFF2DD867',
 };
 
+const leaderboard2 = {
+    width: BannerSizes['leaderboard'].width,
+    height: BannerSizes['leaderboard'].height,
+    hideUnder: BannerSizes['leaderboard'].width,
+    publisherId: 0,
+    zoneId: '60D6A9C246D64B9C8F094E792DAC2DC0',
+};
+
+const leaderboard3 = {
+    width: BannerSizes['leaderboard'].width,
+    height: BannerSizes['leaderboard'].height,
+    hideUnder: BannerSizes['leaderboard'].width,
+    publisherId: 0,
+    zoneId: 'E77BCC6DCE61464BBC4F35F9443D1F47',
+};
+
 const largeMobileBanner = {
     height: BannerSizes['large-mobile-banner'].height,
     width: BannerSizes['large-mobile-banner'].width,
@@ -41,7 +57,31 @@ const largeMobileBanner = {
     zoneId: '4813552BD3754ED78752AA027BF0A6F3',
 };
 
+const largeMobileBanner2 = {
+    height: BannerSizes['large-mobile-banner'].height,
+    width: BannerSizes['large-mobile-banner'].width,
+    hideAbove: '767px',
+    publisherId: 0,
+    zoneId: 'A6CFAF567B774B719CD6FEA3F9BC218D',
+};
+
+const largeMobileBanner3 = {
+    height: BannerSizes['large-mobile-banner'].height,
+    width: BannerSizes['large-mobile-banner'].width,
+    hideAbove: '767px',
+    publisherId: 0,
+    zoneId: 'D98F05A0753045938E4F7561D829B83B',
+};
+
 const largeRectangle = {
+    height: BannerSizes['large-rectangle'].height,
+    width: BannerSizes['large-rectangle'].width,
+    hideAbove: '767px',
+    publisherId: 0,
+    zoneId: '6AB1B004E1884CA1B32BC7FE8B7A889B',
+};
+
+const largeRectangle2 = {//unused
     height: BannerSizes['large-rectangle'].height,
     width: BannerSizes['large-rectangle'].width,
     hideAbove: '767px',
@@ -49,12 +89,20 @@ const largeRectangle = {
     zoneId: '51968EDF94BB4EDABCB5EFD14169A71B',
 };
 
-const wideSkycraper = {
+const wideSkyscraper = {
     height: BannerSizes['wide-skyscraper'].height,
     width: BannerSizes['wide-skyscraper'].width,
     hideUnder: '1024px',
     publisherId: 0,
-    // zoneId: 'E6DE49436FB346BEA2E5DD499968E438',
+    zoneId: '575961F04FF341048169322F082F5A5B',
+};
+
+const wideSkyscraper2 = {
+    height: BannerSizes['wide-skyscraper'].height,
+    width: BannerSizes['wide-skyscraper'].width,
+    hideUnder: '1024px',
+    publisherId: 0,
+    zoneId: '00A000A34302492EA5730CF05C59C80E',
 };
 
 const articles = [
@@ -88,7 +136,13 @@ export default {
     articles,
     largeBanner,
     leaderboard,
+    leaderboard2,
+    leaderboard3,
     largeMobileBanner,
-    wideSkycraper,
-    largeRectangle
+    largeMobileBanner2,
+    largeMobileBanner3,
+    wideSkyscraper,
+    wideSkyscraper2,
+    largeRectangle,
+    largeRectangle2
 }
