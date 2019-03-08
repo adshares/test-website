@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 
 export const AdBanner = styled.div.attrs({
-    className: 'a-name-that-does-not-collide',
+    className: process.env.GATSBY_BANNER_CLASS,
     "data-pub": props => props.publisherId,
     "data-zone": props => props.zoneId,
 })`

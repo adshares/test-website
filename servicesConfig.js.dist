@@ -1,3 +1,0 @@
-const SERVER_URL = '${ADSERVER_BASE_URL}/supply/find.js${VERSION_URL_SUFFIX}';
-
-export default SERVER_URL;

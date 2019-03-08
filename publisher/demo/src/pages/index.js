@@ -11,14 +11,14 @@ import data from '../Data/index'
 import SEO from "../components/SEO";
 import {AdBanner} from "../components/AdBanners/AdBanners";
 import TextContent from "../components/TextContent/TextContent";
-import SERVER_URL from "../../../config/servicesConfig";
 
 class IndexPage extends React.Component {
     state = {
-        currentService: SERVER_URL,
+        currentService: process.env.GATSBY_SERVER_URL,
     };
 
     render() {
+
         return (
             <Layout>
                 <SEO config={data.config} serverLink={this.state.currentService}/>

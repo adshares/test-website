@@ -22,7 +22,7 @@ const largeBanner = {
     hideUnder: '1024px',
     position: 'fixed',
     publisherId: 0,
-    zoneId: '85550B058FC74FAAB5819EF410204DAD',
+    zoneId: process.env.GATSBY_ZONE_LARGE_BANNER,
 };
 
 const leaderboard = {
@@ -30,7 +30,7 @@ const leaderboard = {
     height: BannerSizes['leaderboard'].height,
     hideUnder: BannerSizes['leaderboard'].width,
     publisherId: 0,
-    zoneId: '2BC0FCA670F74D4C8B048D8CFF2DD867',
+    zoneId: process.env.GATSBY_ZONE_LEADERBOARD,
 };
 
 const leaderboard2 = {
@@ -38,7 +38,7 @@ const leaderboard2 = {
     height: BannerSizes['leaderboard'].height,
     hideUnder: BannerSizes['leaderboard'].width,
     publisherId: 0,
-    zoneId: '60D6A9C246D64B9C8F094E792DAC2DC0',
+    zoneId: process.env.GATSBY_ZONE_LEADERBOARD2,
 };
 
 const leaderboard3 = {
@@ -46,7 +46,7 @@ const leaderboard3 = {
     height: BannerSizes['leaderboard'].height,
     hideUnder: BannerSizes['leaderboard'].width,
     publisherId: 0,
-    zoneId: 'E77BCC6DCE61464BBC4F35F9443D1F47',
+    zoneId: process.env.GATSBY_ZONE_LEADERBOARD3,
 };
 
 const largeMobileBanner = {
@@ -54,7 +54,7 @@ const largeMobileBanner = {
     width: BannerSizes['large-mobile-banner'].width,
     hideAbove: '767px',
     publisherId: 0,
-    zoneId: '4813552BD3754ED78752AA027BF0A6F3',
+    zoneId: process.env.GATSBY_ZONE_LARGE_MOBILE_BANNER,
 };
 
 const largeMobileBanner2 = {
@@ -62,7 +62,7 @@ const largeMobileBanner2 = {
     width: BannerSizes['large-mobile-banner'].width,
     hideAbove: '767px',
     publisherId: 0,
-    zoneId: 'A6CFAF567B774B719CD6FEA3F9BC218D',
+    zoneId: process.env.GATSBY_ZONE_LARGE_MOBILE_BANNER2,
 };
 
 const largeMobileBanner3 = {
@@ -70,7 +70,7 @@ const largeMobileBanner3 = {
     width: BannerSizes['large-mobile-banner'].width,
     hideAbove: '767px',
     publisherId: 0,
-    zoneId: 'D98F05A0753045938E4F7561D829B83B',
+    zoneId: process.env.GATSBY_ZONE_LEADERBOARD3,
 };
 
 const largeRectangle = {
@@ -78,7 +78,7 @@ const largeRectangle = {
     width: BannerSizes['large-rectangle'].width,
     hideAbove: '767px',
     publisherId: 0,
-    zoneId: '6AB1B004E1884CA1B32BC7FE8B7A889B',
+    zoneId: process.env.GATSBY_ZONE_LARGE_LARGE_RECTANGLE,
 };
 
 const largeRectangle2 = {//unused
@@ -86,7 +86,7 @@ const largeRectangle2 = {//unused
     width: BannerSizes['large-rectangle'].width,
     hideAbove: '767px',
     publisherId: 0,
-    zoneId: '51968EDF94BB4EDABCB5EFD14169A71B',
+    zoneId: process.env.GATSBY_ZONE_LARGE_LARGE_RECTANGLE2,
 };
 
 const wideSkyscraper = {
@@ -94,7 +94,7 @@ const wideSkyscraper = {
     width: BannerSizes['wide-skyscraper'].width,
     hideUnder: '1024px',
     publisherId: 0,
-    zoneId: '575961F04FF341048169322F082F5A5B',
+    zoneId: process.env.GATSBY_ZONE_WIDE_SKYSCRAPER,
 };
 
 const wideSkyscraper2 = {
@@ -102,7 +102,7 @@ const wideSkyscraper2 = {
     width: BannerSizes['wide-skyscraper'].width,
     hideUnder: '1024px',
     publisherId: 0,
-    zoneId: '00A000A34302492EA5730CF05C59C80E',
+    zoneId: process.env.GATSBY_ZONE_WIDE_SKYSCRAPER2,
 };
 
 const articles = [
