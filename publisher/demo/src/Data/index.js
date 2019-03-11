@@ -22,7 +22,7 @@ const largeBanner = {
     hideUnder: '1024px',
     position: 'fixed',
     publisherId: 0,
-    zoneId: process.env.GATSBY_ZONE_LARGE_BANNER,
+    zoneId: `${process.env.GATSBY_ZONE_LARGE_BANNER}`,
 };
 
 const leaderboard = {
@@ -30,7 +30,7 @@ const leaderboard = {
     height: BannerSizes['leaderboard'].height,
     hideUnder: BannerSizes['leaderboard'].width,
     publisherId: 0,
-    zoneId: process.env.GATSBY_ZONE_LEADERBOARD,
+    zoneId: `${process.env.GATSBY_ZONE_LEADERBOARD}`,
 };
 
 const leaderboard2 = {
@@ -38,7 +38,7 @@ const leaderboard2 = {
     height: BannerSizes['leaderboard'].height,
     hideUnder: BannerSizes['leaderboard'].width,
     publisherId: 0,
-    zoneId: process.env.GATSBY_ZONE_LEADERBOARD2,
+    zoneId: `${process.env.GATSBY_ZONE_LEADERBOARD2}`,
 };
 
 const leaderboard3 = {
@@ -46,7 +46,7 @@ const leaderboard3 = {
     height: BannerSizes['leaderboard'].height,
     hideUnder: BannerSizes['leaderboard'].width,
     publisherId: 0,
-    zoneId: process.env.GATSBY_ZONE_LEADERBOARD3,
+    zoneId: `${process.env.GATSBY_ZONE_LEADERBOARD3}`,
 };
 
 const largeMobileBanner = {
@@ -54,7 +54,7 @@ const largeMobileBanner = {
     width: BannerSizes['large-mobile-banner'].width,
     hideAbove: '767px',
     publisherId: 0,
-    zoneId: process.env.GATSBY_ZONE_LARGE_MOBILE_BANNER,
+    zoneId: `${process.env.GATSBY_ZONE_LARGE_MOBILE_BANNER}`,
 };
 
 const largeMobileBanner2 = {
@@ -62,7 +62,7 @@ const largeMobileBanner2 = {
     width: BannerSizes['large-mobile-banner'].width,
     hideAbove: '767px',
     publisherId: 0,
-    zoneId: process.env.GATSBY_ZONE_LARGE_MOBILE_BANNER2,
+    zoneId: `${process.env.GATSBY_ZONE_LARGE_MOBILE_BANNER2}`,
 };
 
 const largeMobileBanner3 = {
@@ -70,7 +70,7 @@ const largeMobileBanner3 = {
     width: BannerSizes['large-mobile-banner'].width,
     hideAbove: '767px',
     publisherId: 0,
-    zoneId: process.env.GATSBY_ZONE_LEADERBOARD3,
+    zoneId: `${process.env.GATSBY_ZONE_LEADERBOARD3}`,
 };
 
 const largeRectangle = {
@@ -78,7 +78,7 @@ const largeRectangle = {
     width: BannerSizes['large-rectangle'].width,
     hideAbove: '767px',
     publisherId: 0,
-    zoneId: process.env.GATSBY_ZONE_LARGE_LARGE_RECTANGLE,
+    zoneId: `${process.env.GATSBY_ZONE_LARGE_LARGE_RECTANGLE}`,
 };
 
 const largeRectangle2 = {//unused
@@ -86,7 +86,7 @@ const largeRectangle2 = {//unused
     width: BannerSizes['large-rectangle'].width,
     hideAbove: '767px',
     publisherId: 0,
-    zoneId: process.env.GATSBY_ZONE_LARGE_LARGE_RECTANGLE2,
+    zoneId: `${process.env.GATSBY_ZONE_LARGE_LARGE_RECTANGLE2}`,
 };
 
 const wideSkyscraper = {
@@ -94,7 +94,7 @@ const wideSkyscraper = {
     width: BannerSizes['wide-skyscraper'].width,
     hideUnder: '1024px',
     publisherId: 0,
-    zoneId: process.env.GATSBY_ZONE_WIDE_SKYSCRAPER,
+    zoneId: `${process.env.GATSBY_ZONE_WIDE_SKYSCRAPER}`,
 };
 
 const wideSkyscraper2 = {
@@ -102,7 +102,7 @@ const wideSkyscraper2 = {
     width: BannerSizes['wide-skyscraper'].width,
     hideUnder: '1024px',
     publisherId: 0,
-    zoneId: process.env.GATSBY_ZONE_WIDE_SKYSCRAPER2,
+    zoneId: `${process.env.GATSBY_ZONE_WIDE_SKYSCRAPER2}`,
 };
 
 const articles = [
