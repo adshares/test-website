@@ -26,7 +26,7 @@ VERSION_URL_SUFFIX=${VERSION_URL_SUFFIX:-"?v="${APP_VERSION:-`date +%s | sha256s
 export GATSBY_FIND_URL="${SERVER_URL}/supply/find.js$VERSION_URL_SUFFIX"
 export GATSBY_BANNER_CLASS=${ADSERVER_BANNER_CLASS:-"ADS_Server"}
 
-envsubst < publisher/demo/.env.dist | tee publisher/demo/.env.production
+envsubst < publisher/demo/.env.dist | tee publisher/demo/.env
 
 cd publisher/demo
 
@@ -38,6 +38,3 @@ yarn global add gatsby-cli
 
 # Build project
 ./node_modules/.bin/gatsby build
-
-# Remove .env file
-#rm publisher/demo/.env
