@@ -14,7 +14,7 @@ import TextContent from "../components/TextContent/TextContent";
 
 class IndexPage extends React.Component {
     state = {
-        currentService: process.env.GATSBY_SERVER_URL,
+        currentService: process.env.GATSBY_FIND_URL,
     };
 
     render() {
