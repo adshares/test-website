@@ -40,4 +40,4 @@ yarn global add gatsby-cli
 gatsby build
 
 # Remove .env file
-rm publisher/demo/.env
+#rm publisher/demo/.env
