@@ -27,6 +27,7 @@ export GATSBY_FIND_URL="${SERVER_URL}/supply/find.js$VERSION_URL_SUFFIX"
 export GATSBY_BANNER_CLASS=${ADSERVER_BANNER_CLASS:-"ADS_Server"}
 
 envsubst < publisher/demo/.env.dist | tee publisher/demo/.env.production
+envsubst < publisher/demo/.env.dist | tee publisher/demo/.env
 
 cd publisher/demo
 
