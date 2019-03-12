@@ -20,9 +20,13 @@ then
   cd ${BUILD_PATH}/build
 fi
 
-export ADSERVER_BASE_URL=${ADSERVER_BASE_URL:-"//localhost:8101"}
-export VERSION_URL_SUFFIX=${VERSION_URL_SUFFIX:-"?v="${APP_VERSION:-`date +%s | sha256sum | base64 | head -c 32 ; echo`}}
-envsubst < servicesConfig.js.dist | tee publisher/config/servicesConfig.js
+SERVER_URL=${ADSERVER_BASE_URL:-"//localhost:8101"}
+VERSION_URL_SUFFIX=${VERSION_URL_SUFFIX:-"?v="${APP_VERSION:-`date +%s | sha256sum | base64 | head -c 32 ; echo`}}
+
+export GATSBY_FIND_URL="${SERVER_URL}/supply/find.js$VERSION_URL_SUFFIX"
+export GATSBY_BANNER_CLASS=${ADSERVER_BANNER_CLASS:-"ADS_Server"}
+
+envsubst < publisher/demo/.env.dist | tee publisher/demo/.env
 
 cd publisher/demo
 
@@ -33,4 +37,4 @@ yarn install
 yarn global add gatsby-cli
 
 # Build project
-gatsby build
+./node_modules/.bin/gatsby build
