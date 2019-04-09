@@ -23,7 +23,7 @@ fi
 SERVER_URL=${ADSERVER_BASE_URL:-"//localhost:8101"}
 VERSION_URL_SUFFIX=${VERSION_URL_SUFFIX:-"?v="${APP_VERSION:-`date +%s | sha256sum | base64 | head -c 32 ; echo`}}
 
-export GATSBY_FIND_URL="${SERVER_URL}/supply/find.js$VERSION_URL_SUFFIX"
+export GATSBY_FIND_URL="${SERVER_URL}/supply/main.js$VERSION_URL_SUFFIX"
 export GATSBY_BANNER_CLASS=${ADSERVER_BANNER_CLASS:-"ADS_Server"}
 
 envsubst < publisher/demo/.env.dist | tee publisher/demo/.env
